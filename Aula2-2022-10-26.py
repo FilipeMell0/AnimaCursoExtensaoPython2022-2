@@ -21,7 +21,7 @@ else:
 
 genero = input("Qual seu gênero? ")
 
-if idade >= 18 and genero == "m" or "M":
+if idade >= 18 and (genero == "m" or genero == "M"):
   print("Você prestou o serviço militar!")
 else:
   print("Você é mulher ou menor de idade :)")
